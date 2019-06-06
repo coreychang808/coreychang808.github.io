@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-    background-color:rgba(255,255,0,0.3);
+    background-color:rgba(255, 255, 255, 0.3);
     overflow:hidden;
     position:fixed;
     top:0;       
@@ -16,14 +16,14 @@ nav{
     
     }
 
-h2{
+ h2{
     
     color:darkblue;
     font-size: 25px;
     font-style: italic;
     padding-top:30px;
     text-align: left;
-}
+} 
 
 ul{
     color:blue;
@@ -39,17 +39,30 @@ footer{
     text-align: center;
 }
 
-.allpics{
-    display:inline-block;
-    overflow: scroll;
-    width: 100%;
+.allPics{
+    display:flex;
+    overflow-x: scroll;
+    /* width: 100%; */
     height: 350px;
 }
 
 .pics{
     width:300px;
     height:300px;
+    border: 3px solid white;
+    /* padding:2px 2px 2px 2px; */
 }
 main{
-    margin-top:16%;
+    margin-top:9%;
 }
+
+
+/* https://www.html.am/html-generators/marquee-generator.cfm */
+.GeneratedMarquee {
+    font-family:'Comic Sans MS';
+    font-size:2em;
+    line-height:1.3em;
+    color:#000099;
+    padding:100px;
+    
+    }
