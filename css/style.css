@@ -2,22 +2,27 @@ body{
     background-color:turquoise;
 }
 
-h1{
-    font-family: sans-serif;
+nav{
+    background-color:rgba(255,255,0,0.3);
+    overflow:hidden;
+    position:fixed;
+    top:0;       
+    left:0;
+    width:100%;
+    padding:30px 30px 30px 30px;
+    font-size:50px;
     font-family: cursive;
-    font-size: 35px;
-    margin-top:20px;
     text-align: center;
-    text-shadow: 20px;
-}
+    
+    }
 
 h2{
-    background-color: aquamarine;
+    
     color:darkblue;
     font-size: 25px;
     font-style: italic;
     padding-top:30px;
-    text-align: center;
+    text-align: left;
 }
 
 ul{
@@ -30,7 +35,21 @@ ul{
 footer{
     background-color: aquamarine;
     font-family:cursive;
-    padding-top:30px;
+    padding:30px 30px 30px 30px;
     text-align: center;
 }
-    
+
+.allpics{
+    display:inline-block;
+    overflow: scroll;
+    width: 100%;
+    height: 350px;
+}
+
+.pics{
+    width:300px;
+    height:300px;
+}
+main{
+    margin-top:16%;
+}
