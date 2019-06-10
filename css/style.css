@@ -1,5 +1,12 @@
+html{
+    height: 100%;
+}
+
 body{
     background: rgba(0, 146, 231, 0.514);
+    position: relative;
+    min-height: 100%;
+    padding-bottom: [footer-height]
 }
 
 nav{
@@ -35,10 +42,12 @@ ul{
 footer{
     background-color: rgb(54, 54, 54);
     font-family:verdana;
-    /* padding:30px 30px 30px 30px; */
-    text-align: center;
-    padding-bottom: 100px;
+    text-align: center; 
+    position: absolute; 
     padding-top: 10px;
+    left: 0 ; right: 0; bottom: 0;
+    height:15%; 
+   
 }
 
 .allPics{
@@ -46,6 +55,9 @@ footer{
     overflow-x: scroll;
     /* width: 100%; */
     height: 350px;
+    position: fixed;
+    top:250px;
+
 }
 
 .pics{
@@ -67,6 +79,8 @@ main{
     line-height:1.3em;
     color:#3b3b3b;
     padding:1px;
+    position: fixed;
+    top: 200px;
 }
 
 
